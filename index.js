@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Define MongoDB connection URI
-const uri = "mongodb+srv://steve:13assive@cluster0.k7ujfaz.mongodb.net/";
+const uri = "";
 
 // Define the async function to connect to MongoDB and perform operations
 async function run() {
